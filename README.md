@@ -1,6 +1,8 @@
 # TikTok Ops Kit
 
-版本0.1.0，公开发布。面向Codex、Antigravity、Claude Code及支持自定义Skills的Claude账号。
+版本0.2.0，公开发布。面向Codex、Antigravity、Claude Code及支持自定义Skills的Claude账号。
+
+v0.2新增：五类场景分支、异常对象澄清、参数单位与未确认假设字段，以及七个虚构反例。保留原安装方式；不增加固定投放参数。内容规则尚未通过独立模型及真实业务验证。
 
 [安装与使用](START-HERE.md) · [诊断方法](skill/tiktok-ops-toolkit/method.md) · [决策模板](skill/tiktok-ops-toolkit/templates.md) · [虚构验收案例](skill/tiktok-ops-toolkit/example.md)
 
@@ -20,7 +22,7 @@ npx --yes skills@1.5.25 add https://github.com/g95809080-cmyk/tiktok-ops-toolkit
 
 任何人均可访问本仓库并下载安装。本工具不需要激活码，不提供付费访问控制或防复制功能。
 
-Windows完整解压Release中的TikTok-Ops-Kit-0.1.0.zip后运行START-WINDOWS.cmd。Claude网页仅上传claude-skill.zip。
+Windows完整解压Release中的TikTok-Ops-Kit-0.2.0.zip后运行START-WINDOWS.cmd。Claude网页仅上传claude-skill.zip。已有版本先备份再替换；一行命令读取main的新版本，但安装过的副本不会自动升级。
 
 这是方法与模板工具包，不是自动投放软件或平台官方产品。未做各宿主模型端到端测试和真实业务效果验证。
 
