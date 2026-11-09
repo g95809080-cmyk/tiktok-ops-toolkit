@@ -1,10 +1,10 @@
 # TikTok Ops Kit
 
-版本0.2.0，公开发布。面向Codex、Antigravity、Claude Code及支持自定义Skills的Claude账号。
+版本0.3.0，公开发布。面向Codex、Antigravity、Claude Code及支持自定义Skills的Claude账号。
 
-v0.2新增：五类场景分支、异常对象澄清、参数单位与未确认假设字段，以及七个虚构反例。保留原安装方式；不增加固定投放参数。内容规则尚未通过独立模型及真实业务验证。
+v0.3新增：经营利润底表、高客单目标判断、内容供给漏斗、组织与交付验收，以及平台风险边界；新增两张工作表和多组虚构反例。保留原安装方式；不增加固定投放参数，也不提供绕过平台审核的做法。内容规则尚未通过独立模型及真实业务验证。
 
-[安装与使用](START-HERE.md) · [诊断方法](skill/tiktok-ops-toolkit/method.md) · [决策模板](skill/tiktok-ops-toolkit/templates.md) · [虚构验收案例](skill/tiktok-ops-toolkit/example.md)
+[安装与使用](START-HERE.md) · [诊断方法](skill/tiktok-ops-toolkit/method.md) · [五张工作表](skill/tiktok-ops-toolkit/templates.md) · [虚构验收案例](skill/tiktok-ops-toolkit/example.md)
 
 ## 一行安装（项目范围）
 
@@ -22,12 +22,12 @@ npx --yes skills@1.5.25 add https://github.com/g95809080-cmyk/tiktok-ops-toolkit
 
 任何人均可访问本仓库并下载安装。本工具不需要激活码，不提供付费访问控制或防复制功能。
 
-Windows完整解压Release中的TikTok-Ops-Kit-0.2.0.zip后运行START-WINDOWS.cmd。Claude网页仅上传claude-skill.zip。已有版本先备份再替换；一行命令读取main的新版本，但安装过的副本不会自动升级。
+Windows完整解压Release中的TikTok-Ops-Kit-0.3.0.zip后运行START-WINDOWS.cmd。Claude网页仅上传claude-skill.zip。已有版本先备份再替换；一行命令读取main的新版本，但安装过的副本不会自动升级。
 
-这是方法与模板工具包，不是自动投放软件或平台官方产品。未做各宿主模型端到端测试和真实业务效果验证。
+这是通用的方法与模板工具包，不是自动投放软件、平台官方产品或个人代言。未做各宿主模型端到端测试和真实业务效果验证。
 
 ## 构建与检查
 
 Windows PowerShell运行 `./BUILD.ps1` 生成dist下的两个ZIP及SHA256清单。运行 `./TEST.ps1` 检查三个安装目标的隔离安装、预览无写入及同名保护。无第三方依赖。
 
-源文件不包含私人群聊原文、图片、身份或访问密钥。内部研究版保持独立，不随本仓库发布。
+源文件不包含私人群聊原文、图片、人物身份、真实经营数字或访问密钥。内部研究版保持独立，不随本仓库发布。
